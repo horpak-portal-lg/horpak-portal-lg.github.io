@@ -1,18 +1,48 @@
 <!doctype html>
 <html lang="th">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Horpak Portal LG</title>
-    <style>
-      html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #0b0f19; }
-      iframe { width: 100%; height: 100%; border: none; display: block; }
-    </style>
-  </head>
-  <body>
-    <iframe
-      src="https://script.google.com/macros/s/AKfycbzgdH4dlVCzgPGha5_FdvijpCOyn1Cp8DJGIj6TflstxYyPDFzAUxOrCeZdck8xyns6lg/exec"
-      allow="clipboard-write"
-    ></iframe>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="1;url=https://script.google.com/macros/s/AKfycbzgdH4dlVCzgPGha5_FdvijpCOyn1Cp8DJGIj6TflstxYyPDFzAUxOrCeZdck8xyns6lg/exec" />
+  <title>Horpak Portal | ระบบจัดการห้องเช่า</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%233b82f6'><rect width='24' height='24' rx='6'/><path d='M7 18V7l5-2 5 2v11h-3v-4h-4v4H7z' fill='white'/></svg>" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: #0f172a; color: #f8fafc; font-family: system-ui, -apple-system, sans-serif;
+    }
+    .card {
+      text-align: center; padding: 32px 28px; border-radius: 20px; max-width: 340px; width: 90%;
+      background: #1e293b; border: 1px solid rgba(148,163,184,.2); box-shadow: 0 20px 40px rgba(0,0,0,.4);
+    }
+    .spinner {
+      width: 36px; height: 36px; margin: 0 auto 16px; border-radius: 50%;
+      border: 3px solid rgba(59,130,246,.2); border-top-color: #3b82f6;
+      animation: spin .8s linear infinite;
+    }
+    h1 { font-size: 16px; margin: 0 0 6px; font-weight: 700; }
+    p { font-size: 12px; color: #94a3b8; margin: 0 0 18px; }
+    a {
+      display: inline-block; padding: 8px 16px; border-radius: 10px; font-size: 12px; font-weight: 600;
+      color: #fff; background: #2563eb; text-decoration: none;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="spinner"></div>
+    <h1>Horpak Portal</h1>
+    <p>กำลังเชื่อมต่อระบบจัดการห้องเช่า...</p>
+    <a href="https://script.google.com/macros/s/AKfycbzgdH4dlVCzgPGha5_FdvijpCOyn1Cp8DJGIj6TflstxYyPDFzAUxOrCeZdck8xyns6lg/exec">
+      เข้าสู่ระบบทันที
+    </a>
+  </div>
+  <script>
+    setTimeout(function () {
+      location.replace("https://script.google.com/macros/s/AKfycbzgdH4dlVCzgPGha5_FdvijpCOyn1Cp8DJGIj6TflstxYyPDFzAUxOrCeZdck8xyns6lg/exec");
+    }, 350);
+  </script>
+</body>
 </html>
